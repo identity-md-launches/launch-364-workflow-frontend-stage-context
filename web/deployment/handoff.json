@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-285-commitrevealcoinflip",
+  "version": 1,
+  "launchId": "b44cd52c-b642-4cd7-bccb-d6766d3699cf",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test game with no real value. Deploy LaunchToken first, then CommitRevealCoinFlip with the token address. The application uses HEDS for stakes and withdrawals, starts with no HEDS, and has no owner or initialization calls. Commit-reveal outcomes can be biased by withholding. The pool pairs HEDS with native ETH and has no hook. initialPrice is decimal sqrtPriceX96; a pinned policy's initialMarketCapWei overrides this legacy value. Policy and signed artifact linkage belong to services.",
+    "token": {
+      "name": "Heads",
+      "symbol": "HEDS",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "CommitRevealCoinFlip",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x69f610e8ebfe39b848c95ba983bb5a389c33b006cfc457fcdce6ba4aff7c8e06",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xad7f3b99f66522149514f582f7a7a97a603cda0a",
+      "blockNumber": 11791416,
+      "creationCodeHash": "06b0d60166be342f731867c7048d67a05525250d20392cd45c6dd400a21b40a9"
+    },
+    {
+      "name": "CommitRevealCoinFlip",
+      "txHash": "0x69f610e8ebfe39b848c95ba983bb5a389c33b006cfc457fcdce6ba4aff7c8e06",
+      "abiHash": "f45607189e6576c8a8406f6a7011a03faea1eb6d58908cbf0bc183d077082d23",
+      "address": "0x4e36a41388f154b02faa08ecd8b885d5d9d46bc8",
+      "blockNumber": 11791416,
+      "creationCodeHash": "36184800f8f140430ad890542e41c31406c7c40aa29ef822710e3a4129ec8163"
+    }
+  ],
+  "sourceCommit": "8887feb3c66e4e049889eac3b06d6c7b3fe7ee00",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "9b057b0e9fd01cc0fa28e3fa3318d06a43d573155c46724f465ef49a2229d1d5"
+}

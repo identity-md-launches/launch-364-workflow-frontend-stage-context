@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-09-27T06:54:13.463Z",
+  "browser": "154.0.8037.0",
+  "servedUnder": "/preview/",
+  "mode": "Production bundle with mocked EIP-1193 wallet and RPC. No broadcasts.",
+  "tests": [
+    {
+      "name": "Subpath export loads and disconnected actions are disabled",
+      "passed": true
+    },
+    {
+      "name": "Keyboard skip link receives visible focus",
+      "passed": true
+    },
+    {
+      "name": "Wallet connection rejection has a recoverable error",
+      "passed": true
+    },
+    {
+      "name": "Wrong network gates writes; unknown chain adds exact handoff parameters and switches again",
+      "passed": true
+    },
+    {
+      "name": "Invalid stake is blocked before wallet request",
+      "passed": true
+    },
+    {
+      "name": "Approval rejection keeps the secret and allows retry",
+      "passed": true
+    },
+    {
+      "name": "Simulation revert is shown before signing",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion preference removes button transitions",
+      "passed": true
+    },
+    {
+      "name": "Approval-first joining; saved secret; axe scan and reflow at 320/390/744/1024/1440px",
+      "passed": true,
+      "axeViolations": 0
+    },
+    {
+      "name": "Computed rendered text/background contrast meets 4.5:1 on sampled opaque pairs",
+      "passed": true,
+      "contrast": [
+        {
+          "selector": "BODY",
+          "color": "rgb(38, 46, 39)",
+          "background": "rgb(245, 244, 237)",
+          "ratio": 12.68
+        },
+        {
+          "selector": "intro",
+          "color": "rgb(93, 100, 91)",
+          "background": "rgb(245, 244, 237)",
+          "ratio": 5.54
+        },
+        {
+          "selector": "primary",
+          "color": "rgb(255, 254, 249)",
+          "background": "rgb(30, 73, 60)",
+          "ratio": 10.03
+        },
+        {
+          "selector": "test-note",
+          "color": "rgb(93, 100, 91)",
+          "background": "rgb(245, 244, 237)",
+          "ratio": 5.54
+        },
+        {
+          "selector": "phase",
+          "color": "rgb(93, 100, 91)",
+          "background": "rgb(227, 234, 219)",
+          "ratio": 4.96
+        }
+      ]
+    },
+    {
+      "name": "200% text enlargement reflows without page overflow (not native browser zoom)",
+      "passed": true
+    },
+    {
+      "name": "Join transfers one stake after exact approval and simulation",
+      "passed": true
+    },
+    {
+      "name": "Salt persists across reload and reconnect",
+      "passed": true
+    },
+    {
+      "name": "Reveal validates account, round and commitment; correct saved salt reveals at the window; early settlement disabled",
+      "passed": true
+    },
+    {
+      "name": "Settle displays result and credited balance; Withdraw collects all credits",
+      "passed": true
+    },
+    {
+      "name": "Create is separate from entry; lone player reclaim credits a refund without labeling tails as a win",
+      "passed": true
+    },
+    {
+      "name": "Round lookup reads an existing round by ID",
+      "passed": true
+    },
+    {
+      "name": "Wallet account and chain changes invalidate eligibility and isolate secrets",
+      "passed": true
+    },
+    {
+      "name": "Token mismatch and empty deployed code fail closed",
+      "passed": true
+    },
+    {
+      "name": "RPC outage clears stale balances and disables signing; refresh recovers",
+      "passed": true
+    },
+    {
+      "name": "No console errors or failed resources in mocked production interactions",
+      "passed": true
+    },
+    {
+      "name": "Missing browser wallet has a specific recovery message",
+      "passed": true
+    },
+    {
+      "name": "Unmocked browser RPC reads succeed from production export",
+      "passed": true,
+      "content": "◎\nNo rounds yet\n\nCreate the first round and invite another player."
+    },
+    {
+      "name": "Tampered runtime ABI blocks the app",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failedResources": [],
+  "simulated": [
+    "approve",
+    "approve",
+    "approve",
+    "approve",
+    "approve",
+    "join",
+    "reveal",
+    "settle",
+    "withdraw",
+    "createRound",
+    "approve",
+    "join",
+    "reclaim"
+  ],
+  "signed": [
+    "approve",
+    "join",
+    "reveal",
+    "settle",
+    "withdraw",
+    "createRound",
+    "approve",
+    "join",
+    "reclaim"
+  ]
+}

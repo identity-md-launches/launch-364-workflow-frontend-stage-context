@@ -1,0 +1,28 @@
+
+> heads-commit-reveal@1.0.0 test
+> node scripts/browser-test.mjs
+
+PASS Subpath export loads and disconnected actions are disabled
+PASS Keyboard skip link receives visible focus
+PASS Wallet connection rejection has a recoverable error
+PASS Wrong network gates writes; unknown chain adds exact handoff parameters and switches again
+PASS Invalid stake is blocked before wallet request
+PASS Approval rejection keeps the secret and allows retry
+PASS Simulation revert is shown before signing
+PASS Reduced-motion preference removes button transitions
+PASS Approval-first joining; saved secret; axe scan and reflow at 320/390/744/1024/1440px
+PASS Computed rendered text/background contrast meets 4.5:1 on sampled opaque pairs
+PASS 200% text enlargement reflows without page overflow (not native browser zoom)
+PASS Join transfers one stake after exact approval and simulation
+PASS Salt persists across reload and reconnect
+PASS Reveal validates account, round and commitment; correct saved salt reveals at the window; early settlement disabled
+PASS Settle displays result and credited balance; Withdraw collects all credits
+PASS Create is separate from entry; lone player reclaim credits a refund without labeling tails as a win
+PASS Round lookup reads an existing round by ID
+PASS Wallet account and chain changes invalidate eligibility and isolate secrets
+PASS Token mismatch and empty deployed code fail closed
+PASS RPC outage clears stale balances and disables signing; refresh recovers
+PASS No console errors or failed resources in mocked production interactions
+PASS Missing browser wallet has a specific recovery message
+PASS Unmocked browser RPC reads succeed from production export
+PASS Tampered runtime ABI blocks the app

@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-27T06:56:25.234Z",
+  "allowedPaths": [
+    "web/**",
+    "dist/**",
+    "docs/**",
+    "web/.gitignore"
+  ],
+  "ignoreFileBudget": [
+    "web/.gitignore"
+  ],
+  "trackedBaselineFiles": 59,
+  "additions": 50,
+  "protectedTrackedFilesChanged": [],
+  "baselinePlusDeliveryRawBytes": 4456311,
+  "bundleBudgetBytes": 8388608,
+  "rawHeadroomBytes": 3932297,
+  "assetCountExcludingManifest": 7,
+  "exportedBytesIncludingManifest": 603881,
+  "noDependencyCachesOrArchives": true,
+  "noSubmodulesOrNewSymlinks": true,
+  "gitRecording": "git add web dist docs failed: .git/index.lock is on a read-only filesystem. Files are delivered in the working tree; no commit or exact Git bundle could be created here.",
+  "sizeNote": "Raw current tracked tree plus all nonignored additions is a conservative size check, not a measured Git bundle. Almost 4 MB remains for Git metadata/history overhead."
+}

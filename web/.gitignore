@@ -1,0 +1,10 @@
+# Path budget: this is the only ignore file authorized for this assignment.
+# Patterns without a leading slash apply at every nesting level below web/.
+node_modules/
+.npm/
+.cache/
+.vite/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.tgz

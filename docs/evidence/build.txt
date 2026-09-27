@@ -1,0 +1,27 @@
+
+> heads-commit-reveal@1.0.0 build
+> npm run typecheck && node scripts/licenses.mjs && vite build && node scripts/export.mjs
+
+
+> heads-commit-reveal@1.0.0 typecheck
+> tsc --noEmit
+
+vite v8.3.1 building client environment for production...
+transforming...
+✓ 440 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   1.01 kB │ gzip:   0.60 kB
+../dist/assets/index-C1UaLUGw.css   15.36 kB │ gzip:   3.91 kB
+../dist/assets/ccip-CQM7qtME.js      2.83 kB │ gzip:   1.30 kB
+../dist/assets/index-DpRE2g8f.js   534.82 kB │ gzip: 163.09 kB
+
+✓ built in 284ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+Verified pinned ABI LaunchToken: 38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee
+Verified pinned ABI CommitRevealCoinFlip: f45607189e6576c8a8406f6a7011a03faea1eb6d58908cbf0bc183d077082d23
+Wrote manifest: 7 assets, 600587 bytes. Network object preserved unchanged.

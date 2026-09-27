@@ -1,0 +1,7 @@
+
+> heads-commit-reveal@1.0.0 check:export
+> node scripts/export.mjs --check
+
+Verified pinned ABI LaunchToken: 38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee
+Verified pinned ABI CommitRevealCoinFlip: f45607189e6576c8a8406f6a7011a03faea1eb6d58908cbf0bc183d077082d23
+Checked manifest: 7 assets, 600587 bytes. Network object preserved unchanged.
